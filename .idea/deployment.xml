@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Remote Host Hostyun_KR (e049dff2-915e-4ce6-a4ea-f698bdee6ffb)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Remote Host Hostyun_KR (e049dff2-915e-4ce6-a4ea-f698bdee6ffb)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.gzQSVjPilO" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

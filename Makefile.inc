@@ -19,6 +19,9 @@ LINUX_LIBCAP = -lcap
 # (The alternative would be to replace each instance of "#define _SVID_SOURCE"
 # or "#define _BSD_SOURCE" in the example programs with
 # "#define _DEFAULT_SOURCE".)
+#
+#Deprecate CFLAGS
+# -Wimplicit-fallthrough \
 
 IMPL_CFLAGS = -std=c99 -D_XOPEN_SOURCE=600 \
 	        -D_DEFAULT_SOURCE \
@@ -28,7 +31,6 @@ IMPL_CFLAGS = -std=c99 -D_XOPEN_SOURCE=600 \
 		-W \
 		-Wmissing-prototypes \
 		-Wno-sign-compare \
-		-Wimplicit-fallthrough \
 		-Wno-unused-parameter
 
 # clang(1) is a little more zealous than gcc(1) with respect to some warnings.
